@@ -53,6 +53,7 @@ def all_winter_holiday_supplies(holiday_hash)
   supplies_array = []
   holiday_hash[:winter].each do |key, value|
     supplies_array << value
+    puts supplies_array.inspect
 end
 supplies_array
 end
