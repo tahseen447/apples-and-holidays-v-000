@@ -75,6 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  New Years:"
       else
       puts "  #{name.capitalize}: "+ supplies.join(", ")
+    end
   end
 end
 end
