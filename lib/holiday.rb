@@ -70,12 +70,12 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     puts "#{season.capitalize}:"
     holiday.each do |name, supplies|
+      str = ""
       if name === :new_years
-        puts "  New Years: "
+        str << "  New Years: "
       else
-      puts "  #{name.capitalize}: "
+      str << "  #{name.capitalize}: "
     end
-    puts supplies.join(", ")
   end
 end
 end
