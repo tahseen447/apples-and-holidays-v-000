@@ -73,8 +73,9 @@ def all_supplies_in_holidays(holiday_hash)
       if name === :new_years
         puts "  New Years: "
       else
-      puts "  #{name.capitalize}: "+ supplies.join(", ")
+      puts "  #{name.capitalize}: "
     end
+    puts supplies.join(", ")
   end
 end
 end
