@@ -73,6 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
       puts "#{name.capitalize}:"
       supplies.each do |item|
         puts "#{item}"
+      end
   end
 end
 end
