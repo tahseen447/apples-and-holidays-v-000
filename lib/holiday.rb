@@ -55,7 +55,6 @@ def all_winter_holiday_supplies(holiday_hash)
     value.each do |item|
       supplies_array << item
   end
-    puts supplies_array.inspect
 end
 supplies_array
 end
