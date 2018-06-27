@@ -68,6 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season, holiday|
+    puts season
     if season === :new_years
       puts "New Years:"
     else
